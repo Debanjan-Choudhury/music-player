@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music player</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+
+  </head>
+  <body>
+    <div class="container">
+        <audio src="music/music1.mp3" id="audio"></audio>
+
+        <h1 class="music_name">Love Story</h1>
+        <h3 class="artist_name"> Taylor Swift</h3>
+
+        <div class="disc"></div>
+
+        <div class="song_slider">
+
+            <input type="range" value="0" class="slider">
+        </div>
+        <div class="controls">
+            <i class="fa-solid fa-backward fa-2xl" id="previous" title="previous"></i>
+            <i class="fa-solid fa-play fa-2xl" id="play" title="play"></i>
+            <i class="fa-solid fa-forward fa-2xl" id="next" title="next"></i>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="data.js"></script>
+   
+
+  </body>
+</html>
+
